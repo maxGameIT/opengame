@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2975199364
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 783b4d925ef2eb2ad5be2fd47099097a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 784c6674b3c0196cbf1529c55978f674
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 62
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21b4ee2acde0c5344a75f70bb4059abf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb0807eaff0ef6f4ea1eb22a7c350bbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d218f5ce9549c13479194e91337b283d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/master/UI/UIForms/ui_mifeng.prefab
+Dependencies: []

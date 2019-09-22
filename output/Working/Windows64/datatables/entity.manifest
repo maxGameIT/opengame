@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1596405001
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 60c62176218a7ca0affc41c8b7095028
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/master/DataTables/Entity.bytes
+- Assets/master/DataTables/Entity.txt
+Dependencies: []

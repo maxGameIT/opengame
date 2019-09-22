@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1253112453
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35e16018211bf75913434f1346e6c352
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/master/DataTables/shuxing.bytes
+- Assets/master/DataTables/shuxing.txt
+Dependencies: []

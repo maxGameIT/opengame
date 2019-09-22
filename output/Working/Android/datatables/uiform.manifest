@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1426107974
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 50b9b8b505bf774c7000213515b0e940
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/master/DataTables/UIForm.txt
+- Assets/master/DataTables/UIForm.bytes
+Dependencies: []

@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 434087435
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0719fd2d37b896d385e1eebbfa643198
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5893582e98bcc84de4807151a0d7e778
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21b4ee2acde0c5344a75f70bb4059abf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e303f98b224363c4fb89f9accf1c2815, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/master/UI/UIForms/ui_pause.prefab
+Dependencies: []

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="UI/ui_fail" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/ui_fight" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/ui_loading" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/ui_pause" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/ui_setting" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/ui_Start" LoadType="0" Packed="False" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="0d3a29445072a7d4a82a4314af6f1b01" AssetBundleName="UI/ui_setting" />
+      <Asset Guid="4fa2f8f18b1ffc341acd2efa9d0a8129" AssetBundleName="UI/ui_fight" />
+      <Asset Guid="57ee5d7430c65c047924d1c850f73519" AssetBundleName="UI/ui_Start" />
+      <Asset Guid="7baf961a35354124bb7bd93ff2d7af4e" AssetBundleName="UI/ui_fail" />
+      <Asset Guid="e9b64e36a97f48a43b477343d13ab2dc" AssetBundleName="UI/ui_pause" />
+      <Asset Guid="f715f07f0a7f13948813986a1da41024" AssetBundleName="UI/ui_loading" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>

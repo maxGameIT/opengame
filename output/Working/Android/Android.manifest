@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2895569054
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: datatables/birthmaster
+      Dependencies: {}
+    Info_1:
+      Name: datatables/entity
+      Dependencies: {}
+    Info_2:
+      Name: datatables/shuxing
+      Dependencies: {}
+    Info_3:
+      Name: datatables/uiform
+      Dependencies: {}
+    Info_4:
+      Name: scenes/game_scene
+      Dependencies: {}
+    Info_5:
+      Name: ui/uiforms/ui_cat
+      Dependencies: {}
+    Info_6:
+      Name: ui/uiforms/ui_fail
+      Dependencies: {}
+    Info_7:
+      Name: ui/uiforms/ui_fight
+      Dependencies: {}
+    Info_8:
+      Name: ui/uiforms/ui_loading
+      Dependencies: {}
+    Info_9:
+      Name: ui/uiforms/ui_mifeng
+      Dependencies: {}
+    Info_10:
+      Name: ui/uiforms/ui_pause
+      Dependencies: {}
+    Info_11:
+      Name: ui/uiforms/ui_player
+      Dependencies: {}
+    Info_12:
+      Name: ui/uiforms/ui_setting
+      Dependencies: {}
+    Info_13:
+      Name: ui/uiforms/ui_snake
+      Dependencies: {}
+    Info_14:
+      Name: ui/uiforms/ui_start
+      Dependencies: {}

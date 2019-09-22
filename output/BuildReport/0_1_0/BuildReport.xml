@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>master</ProductName>
+      <CompanyName>xingjie</CompanyName>
+      <GameIdentifier>com.xingjie.master</GameIdentifier>
+      <ApplicableGameVersion>0.1</ApplicableGameVersion>
+      <InternalResourceVersion>0</InternalResourceVersion>
+      <UnityVersion>2018.2.3f1</UnityVersion>
+      <Platforms>Windows, Windows64, Android</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="12">
+      <AssetBundle Name="entities/player/mao_move" LoadType="0" Packed="False">
+        <Assets Count="0" />
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="entities/player/player_attack" LoadType="0" Packed="False">
+        <Assets Count="0" />
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_cat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="fd5dc19d89be84c4da82bfef5916945d" Name="Assets/master/UI/UIForms/ui_cat.prefab" Length="11224" HashCode="663373460" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_fail" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="7baf961a35354124bb7bd93ff2d7af4e" Name="Assets/master/UI/UIForms/ui_fail.prefab" Length="13054" HashCode="-571642503" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_fight" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="4fa2f8f18b1ffc341acd2efa9d0a8129" Name="Assets/master/UI/UIForms/ui_fight.prefab" Length="30621" HashCode="-1490311303" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_loading" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="f715f07f0a7f13948813986a1da41024" Name="Assets/master/UI/UIForms/ui_loading.prefab" Length="8733" HashCode="-1681808429" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_mifeng" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="7efe1df830f582d4098140758f127465" Name="Assets/master/UI/UIForms/ui_mifeng.prefab" Length="12324" HashCode="-1463778827" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_pause" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="e9b64e36a97f48a43b477343d13ab2dc" Name="Assets/master/UI/UIForms/ui_pause.prefab" Length="13849" HashCode="-817500338" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_player" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="cae5472daa578c14385753ac13b343d1" Name="Assets/master/UI/UIForms/ui_player.prefab" Length="19174" HashCode="532607382" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_setting" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0d3a29445072a7d4a82a4314af6f1b01" Name="Assets/master/UI/UIForms/ui_setting.prefab" Length="51499" HashCode="318033484" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_snake" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="883b59f91b0bf784d8876e5ab0c3cfbe" Name="Assets/master/UI/UIForms/ui_snake.prefab" Length="12326" HashCode="-1736348466" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_start" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="57ee5d7430c65c047924d1c850f73519" Name="Assets/master/UI/UIForms/ui_Start.prefab" Length="13217" HashCode="581003254" />
+        </Assets>
+        <Codes />
+      </AssetBundle>
+    </AssetBundles>
+  </BuildReport>
+</UnityGameFramework>

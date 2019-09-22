@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="DataTables/birthMaster" LoadType="0" Packed="True" />
+      <AssetBundle Name="DataTables/Entity" LoadType="0" Packed="True" />
+      <AssetBundle Name="DataTables/shuxing" LoadType="0" Packed="True" />
+      <AssetBundle Name="DataTables/UIForm" LoadType="0" Packed="True" />
+      <AssetBundle Name="Scenes/game_scene" LoadType="0" Packed="True" />
+      <AssetBundle Name="UI/UIForms/ui_start" LoadType="0" Packed="False" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="2b2498a2c20de45458bfadc3277f221d" AssetBundleName="DataTables/birthMaster" />
+      <Asset Guid="2cda990e2423bbf4892e6590ba056729" AssetBundleName="Scenes/game_scene" />
+      <Asset Guid="35c7f14cbe73cb14a9f9bcaa4f21199c" AssetBundleName="DataTables/Entity" />
+      <Asset Guid="428c29d96c4dc1c4ebfbf22f894284bf" AssetBundleName="DataTables/shuxing" />
+      <Asset Guid="57ee5d7430c65c047924d1c850f73519" AssetBundleName="UI/UIForms/ui_start" />
+      <Asset Guid="5e60a8e1049b2574f926e5b08ff98fc8" AssetBundleName="DataTables/UIForm" />
+      <Asset Guid="84d4d5586d3d3d948a7e84c63bc07043" AssetBundleName="DataTables/shuxing" />
+      <Asset Guid="a6bdab3c173d1e1469c8e41c40e911c9" AssetBundleName="DataTables/birthMaster" />
+      <Asset Guid="c5220e8e62c02f34aa758b1cd2b956dd" AssetBundleName="DataTables/Entity" />
+      <Asset Guid="e4a7131447618244d8c61c3b0f608225" AssetBundleName="DataTables/UIForm" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>

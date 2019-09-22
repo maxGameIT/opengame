@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>master</ProductName>
+      <CompanyName>xingjie</CompanyName>
+      <GameIdentifier>com.xingjie.master</GameIdentifier>
+      <ApplicableGameVersion>0.1</ApplicableGameVersion>
+      <InternalResourceVersion>2</InternalResourceVersion>
+      <UnityVersion>2019.1.8f1</UnityVersion>
+      <Platforms>Windows, Windows64, Android</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="0" />
+  </BuildReport>
+</UnityGameFramework>

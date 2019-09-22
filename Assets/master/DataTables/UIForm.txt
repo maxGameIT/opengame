@@ -1,0 +1,16 @@
+#	界面配置表				
+#	Id	AssetName	UIGroupName	AllowMultiInstance	PauseCoveredUIForm
+#	int	string	string	bool	bool
+#	界面编号	资源名称	界面组名称	是否允许多个界面实例	是否暂停被其覆盖的界面
+	1	DialogForm	Top	TRUE	TRUE
+	2	ui_start	Default	FALSE	TRUE
+	3	ui_login	Default	FALSE	TRUE
+	4	ui_phonelogin	Popup	FALSE	TRUE
+	5	ui_phoneregister	Popup	FALSE	TRUE
+	6	ui_main	Default	FALSE	TRUE
+	7	ui_forgetpassword	Popup	FALSE	TRUE
+	8	ui_name	Popup	FALSE	TRUE
+	9	ui_paiwei	Default	FALSE	TRUE
+	10	ui_singe	Default	FALSE	TRUE
+	11	ui_fight	Default	FALSE	TRUE
+	1000	MessageBoxForm	Popup	FALSE	TRUE

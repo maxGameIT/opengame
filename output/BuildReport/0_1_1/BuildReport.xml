@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>master</ProductName>
+      <CompanyName>xingjie</CompanyName>
+      <GameIdentifier>com.xingjie.master</GameIdentifier>
+      <ApplicableGameVersion>0.1</ApplicableGameVersion>
+      <InternalResourceVersion>1</InternalResourceVersion>
+      <UnityVersion>2018.2.3f1</UnityVersion>
+      <Platforms>Windows, Windows64, Android</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="15">
+      <AssetBundle Name="datatables/birthmaster" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="2b2498a2c20de45458bfadc3277f221d" Name="Assets/master/DataTables/birthMaster.txt" Length="338" HashCode="282545970" />
+          <Asset Guid="a6bdab3c173d1e1469c8e41c40e911c9" Name="Assets/master/DataTables/birthMaster.bytes" Length="360" HashCode="-1584238907" />
+        </Assets>
+        <Codes>
+          <Windows Length="1581" HashCode="1915845604" ZipLength="1291" ZipHashCode="-1867103310" />
+          <Windows64 Length="1581" HashCode="741133725" ZipLength="1291" ZipHashCode="-1245699407" />
+          <Android Length="1581" HashCode="1664924288" ZipLength="1291" ZipHashCode="1532293982" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="datatables/entity" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="35c7f14cbe73cb14a9f9bcaa4f21199c" Name="Assets/master/DataTables/Entity.bytes" Length="56" HashCode="-1573050673" />
+          <Asset Guid="c5220e8e62c02f34aa758b1cd2b956dd" Name="Assets/master/DataTables/Entity.txt" Length="136" HashCode="378331643" />
+        </Assets>
+        <Codes>
+          <Windows Length="1330" HashCode="-211203271" ZipLength="1119" ZipHashCode="-1841087953" />
+          <Windows64 Length="1330" HashCode="519120970" ZipLength="1120" ZipHashCode="1548175612" />
+          <Android Length="1330" HashCode="-1075946230" ZipLength="1119" ZipHashCode="1509942228" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="datatables/shuxing" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="428c29d96c4dc1c4ebfbf22f894284bf" Name="Assets/master/DataTables/shuxing.txt" Length="126" HashCode="-405900518" />
+          <Asset Guid="84d4d5586d3d3d948a7e84c63bc07043" Name="Assets/master/DataTables/shuxing.bytes" Length="64" HashCode="1118348450" />
+        </Assets>
+        <Codes>
+          <Windows Length="1305" HashCode="1883082708" ZipLength="1112" ZipHashCode="-1214393853" />
+          <Windows64 Length="1305" HashCode="413718310" ZipLength="1112" ZipHashCode="-2092982317" />
+          <Android Length="1305" HashCode="1201900938" ZipLength="1112" ZipHashCode="-1947285810" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="datatables/uiform" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="5e60a8e1049b2574f926e5b08ff98fc8" Name="Assets/master/DataTables/UIForm.txt" Length="563" HashCode="1612426089" />
+          <Asset Guid="e4a7131447618244d8c61c3b0f608225" Name="Assets/master/DataTables/UIForm.bytes" Length="290" HashCode="1263049603" />
+        </Assets>
+        <Codes>
+          <Windows Length="1647" HashCode="-1766998167" ZipLength="1391" ZipHashCode="-1747894221" />
+          <Windows64 Length="1647" HashCode="2032417968" ZipLength="1391" ZipHashCode="1958000459" />
+          <Android Length="1647" HashCode="-1690372282" ZipLength="1391" ZipHashCode="48086636" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="scenes/game_scene" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2cda990e2423bbf4892e6590ba056729" Name="Assets/master/Scenes/game_scene.unity" Length="9336" HashCode="-1063002733" />
+        </Assets>
+        <Codes>
+          <Windows Length="13610" HashCode="23721900" ZipLength="11116" ZipHashCode="-1312392775" />
+          <Windows64 Length="13604" HashCode="46107584" ZipLength="11131" ZipHashCode="1094748096" />
+          <Android Length="13604" HashCode="-1565514127" ZipLength="11132" ZipHashCode="1858412242" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_cat" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="fd5dc19d89be84c4da82bfef5916945d" Name="Assets/master/UI/UIForms/ui_cat.prefab" Length="11224" HashCode="663373460" />
+        </Assets>
+        <Codes>
+          <Windows Length="10457739" HashCode="983118151" ZipLength="8916892" ZipHashCode="-840326174" />
+          <Windows64 Length="10457741" HashCode="-787961568" ZipLength="8916896" ZipHashCode="-1757324619" />
+          <Android Length="10457741" HashCode="-576157737" ZipLength="8916895" ZipHashCode="2132345555" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_fail" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7baf961a35354124bb7bd93ff2d7af4e" Name="Assets/master/UI/UIForms/ui_fail.prefab" Length="13054" HashCode="-571642503" />
+        </Assets>
+        <Codes>
+          <Windows Length="1127775" HashCode="1749311878" ZipLength="907014" ZipHashCode="-1469760053" />
+          <Windows64 Length="1127776" HashCode="-173039877" ZipLength="907010" ZipHashCode="56656369" />
+          <Android Length="1127776" HashCode="989358911" ZipLength="907010" ZipHashCode="1070963146" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_fight" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4fa2f8f18b1ffc341acd2efa9d0a8129" Name="Assets/master/UI/UIForms/ui_fight.prefab" Length="30621" HashCode="-1490311303" />
+        </Assets>
+        <Codes>
+          <Windows Length="812018" HashCode="-724840839" ZipLength="701438" ZipHashCode="473719582" />
+          <Windows64 Length="812020" HashCode="-1026737270" ZipLength="701433" ZipHashCode="1707430989" />
+          <Android Length="812020" HashCode="-1887129315" ZipLength="701434" ZipHashCode="1287812329" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_loading" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f715f07f0a7f13948813986a1da41024" Name="Assets/master/UI/UIForms/ui_loading.prefab" Length="8733" HashCode="-1681808429" />
+        </Assets>
+        <Codes>
+          <Windows Length="436129" HashCode="-916724577" ZipLength="378951" ZipHashCode="478957074" />
+          <Windows64 Length="436131" HashCode="970089703" ZipLength="378953" ZipHashCode="-1412940222" />
+          <Android Length="436131" HashCode="695947190" ZipLength="378952" ZipHashCode="505711898" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_mifeng" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7efe1df830f582d4098140758f127465" Name="Assets/master/UI/UIForms/ui_mifeng.prefab" Length="12324" HashCode="-1463778827" />
+        </Assets>
+        <Codes>
+          <Windows Length="3985809" HashCode="1511902242" ZipLength="3377801" ZipHashCode="544589189" />
+          <Windows64 Length="3985810" HashCode="-89478943" ZipLength="3377803" ZipHashCode="497688649" />
+          <Android Length="3985810" HashCode="-1152223191" ZipLength="3377802" ZipHashCode="249941977" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_pause" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e9b64e36a97f48a43b477343d13ab2dc" Name="Assets/master/UI/UIForms/ui_pause.prefab" Length="13849" HashCode="-817500338" />
+        </Assets>
+        <Codes>
+          <Windows Length="544298" HashCode="-703519949" ZipLength="458568" ZipHashCode="-1528792501" />
+          <Windows64 Length="544300" HashCode="-1819292894" ZipLength="458568" ZipHashCode="1939666136" />
+          <Android Length="544299" HashCode="2078148027" ZipLength="458572" ZipHashCode="42736728" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_player" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="cae5472daa578c14385753ac13b343d1" Name="Assets/master/UI/UIForms/ui_player.prefab" Length="19174" HashCode="532607382" />
+        </Assets>
+        <Codes>
+          <Windows Length="19756689" HashCode="-446863022" ZipLength="15570771" ZipHashCode="720396480" />
+          <Windows64 Length="19756692" HashCode="-705710555" ZipLength="15570778" ZipHashCode="-970540326" />
+          <Android Length="19772135" HashCode="1746598685" ZipLength="15589640" ZipHashCode="-1089480866" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_setting" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0d3a29445072a7d4a82a4314af6f1b01" Name="Assets/master/UI/UIForms/ui_setting.prefab" Length="51499" HashCode="318033484" />
+        </Assets>
+        <Codes>
+          <Windows Length="2758396" HashCode="-1520254801" ZipLength="2451351" ZipHashCode="-1206487164" />
+          <Windows64 Length="2758397" HashCode="-1559243792" ZipLength="2451355" ZipHashCode="-1255330827" />
+          <Android Length="10376274" HashCode="-183488322" ZipLength="8702862" ZipHashCode="1598539110" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_snake" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="883b59f91b0bf784d8876e5ab0c3cfbe" Name="Assets/master/UI/UIForms/ui_snake.prefab" Length="12326" HashCode="-1736348466" />
+        </Assets>
+        <Codes>
+          <Windows Length="20875033" HashCode="137554312" ZipLength="16377792" ZipHashCode="-755413499" />
+          <Windows64 Length="20875036" HashCode="901258173" ZipLength="16377791" ZipHashCode="676283130" />
+          <Android Length="20875036" HashCode="56730349" ZipLength="16377788" ZipHashCode="-109440058" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms/ui_start" LoadType="0" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="57ee5d7430c65c047924d1c850f73519" Name="Assets/master/UI/UIForms/ui_Start.prefab" Length="13217" HashCode="581003254" />
+        </Assets>
+        <Codes>
+          <Windows Length="4175179" HashCode="1406942695" ZipLength="3649617" ZipHashCode="50521644" />
+          <Windows64 Length="4175181" HashCode="795435442" ZipLength="3649614" ZipHashCode="-85126266" />
+          <Android Length="11794428" HashCode="1403180350" ZipLength="9906086" ZipHashCode="-1290793811" />
+        </Codes>
+      </AssetBundle>
+    </AssetBundles>
+  </BuildReport>
+</UnityGameFramework>
