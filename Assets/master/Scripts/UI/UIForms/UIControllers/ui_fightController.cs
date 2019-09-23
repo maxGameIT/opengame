@@ -20,6 +20,9 @@ namespace Master
         }
         public ItemPrefab[] ItemPrefabs;
         Dictionary<item.ItemType, GameObject> itemprefabDict;
+        private item pressedItem;
+        private item enterItem;
+
 
         protected override void OnOpen(object userData)
         {
@@ -118,6 +121,45 @@ namespace Master
             return FilledNotFinshed;
         }
 
+
+        private bool IsBetween(item item1, item item2)
+        {
+            return (item1.X == item2.X && Mathf.Abs(item1.Y - item2.Y) == 1) || 
+                (item1.Y == item2.Y && Mathf.Abs(item1.X - item2.X) == 1);
+        }
+
+        public void ExchangeItems(item item1, item item2)
+        {
+            if (item1.CanMove() && item2.CanMove())
+            {
+                items[item1.X, item1.Y] = item2;
+                items[item2.X, item2.Y] = item1;
+                int tempX = item1.X;
+                int tempY = item1.Y;
+                item1.Moveitem.Move(item2.X,item2.Y,fillTime);
+                item2.Moveitem.Move(tempX, tempY, fillTime);
+            }
+        }
+
+        public void PressItem(item item)
+        {
+            pressedItem = item;
+        }
+
+        public void EnterItem(item item)
+        {
+            enterItem = item;
+        }
+
+        public bool ReleaseItem()
+        {
+            if (IsBetween(pressedItem,enterItem))
+            {
+                ExchangeItems(pressedItem, enterItem);
+                return true;
+            }
+            return false;
+        }
 
         protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
         {

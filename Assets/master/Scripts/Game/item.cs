@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace Master
 {
-    public class item : MonoBehaviour
+    public class item : MonoBehaviour,IPointerEnterHandler,IPointerDownHandler,IPointerUpHandler,IBeginDragHandler,IDragHandler,IEndDragHandler
     {
         public enum ItemType
         {
@@ -21,6 +22,7 @@ namespace Master
         private int y;
         private ColorItem m_coloritem;
         private MoveItem m_moveitem;
+        public PageView scrollview;
         public int X
         {
             get
@@ -110,8 +112,53 @@ namespace Master
         {
             m_coloritem = GetComponent<ColorItem>();
             m_moveitem = GetComponent<MoveItem>();
+            ui_fight ui = (ui_fight)GameEntry.UI.GetUIForm(UIFormId.ui_fight);
+            scrollview = ui.view_items.GetComponentInChildren<PageView>();
         }
 
+
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            ui_fight ui = (ui_fight)GameEntry.UI.GetUIForm(UIFormId.ui_fight);
+            ui.EnterItem(this);
+        }
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            ui_fight ui = (ui_fight)GameEntry.UI.GetUIForm(UIFormId.ui_fight);
+            ui.PressItem(this);
+        }
+        private bool IsScroll = true;
+        public void OnPointerUp(PointerEventData eventData)
+        {
+            ui_fight ui = (ui_fight)GameEntry.UI.GetUIForm(UIFormId.ui_fight);
+            IsScroll = ui.ReleaseItem();
+        }
+
+        public void OnBeginDrag(PointerEventData eventData)
+        {
+            if (!IsScroll)
+            {
+                scrollview.OnBeginDrag(eventData);
+            }
+        }
+
+        public void OnDrag(PointerEventData eventData)
+        {
+            if (!IsScroll)
+            {
+                scrollview.OnDrag(eventData);
+            }
+        }
+
+        public void OnEndDrag(PointerEventData eventData)
+        {
+            if (!IsScroll)
+            {
+                scrollview.OnEndDrag(eventData);
+            }
+        }
     }
 }
 

@@ -54,7 +54,7 @@ namespace Master
 
         private void Awake()
         {
-            Sprite = transform.Find("Sweet").GetComponent<Image>();
+            Sprite = GetComponent<Image>();
             colorSpriteDict = new Dictionary<ColorType, Sprite>();
             for (int i = 0; i < ColorSprites.Length; i++)
             {

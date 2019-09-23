@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using DG.Tweening;
-class PageView:ScrollRect
+public class PageView:ScrollRect
 {
     public float Duration = 0.2f;
     private int PageCount;
@@ -12,6 +12,8 @@ class PageView:ScrollRect
     private int _curPageIndex;
     [SerializeField]
     private float BeforeValue;
+    public float CloseDragDuration = 1;
+
     protected override void Start()
     {
         _curPageIndex = 0;
