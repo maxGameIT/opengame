@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 namespace Master
 {
@@ -22,12 +23,26 @@ namespace Master
         Dictionary<item.ItemType, GameObject> itemprefabDict;
         private item pressedItem;
         private item enterItem;
+        private Transform parent;
+        private Toggle toggle1;
+        private Toggle toggle2;
+        private Toggle toggle3;
 
 
         protected override void OnOpen(object userData)
         {
             base.OnOpen(userData);
             itemprefabDict = new Dictionary<item.ItemType, GameObject>();
+            toggle1 = view_items.transform.Find("page_1").GetComponent<Toggle>();
+            toggle2 = view_items.transform.Find("page_2").GetComponent<Toggle>();
+            toggle3 = view_items.transform.Find("page_3").GetComponent<Toggle>();
+
+            toggle1.onValueChanged.AddListener(changeItem1);
+            toggle2.onValueChanged.AddListener(changeItem2);
+            toggle3.onValueChanged.AddListener(changeItem3);
+
+
+            parent = view_items.transform.Find("page_1/Background/Checkmark");
             for (int i = 0; i < ItemPrefabs.Length; i++)
             {
                 if(!itemprefabDict.ContainsKey(ItemPrefabs[i].type))
@@ -39,6 +54,22 @@ namespace Master
             StartCoroutine(AllFill());
         }
 
+        void changeItem1(bool flag)
+        {
+            toggle1.transform.Find("Background/Checkmark").gameObject.SetActive(flag);
+        }
+
+        void changeItem2(bool flag)
+        {
+            toggle2.transform.Find("Background/Checkmark").gameObject.SetActive(flag);
+        }
+
+        void changeItem3(bool flag)
+        {
+            toggle3.transform.Find("Background/Checkmark").gameObject.SetActive(flag);
+        }
+
+
 
 
         void CreateItems()
@@ -48,8 +79,7 @@ namespace Master
             {
                 for (int j = 0; j < Row; j++)
                 {
-                    PageView view = view_items.transform.GetChild(0).GetComponent<PageView>();
-                    item it = CreateNewItem(i,j, item.ItemType.EMPTY, view.content.GetChild(0));
+                    item it = CreateNewItem(i,j, item.ItemType.EMPTY, parent);
                     //if (it.CanColor())
                     //{
                     //    it.Coloritem.SetColor((ColorItem.ColorType)UnityEngine.Random.Range(0,it.Coloritem.NumColors));
@@ -80,7 +110,7 @@ namespace Master
         public bool Fill()
         {
             bool FilledNotFinshed = false;
-            PageView view = view_items.transform.GetChild(0).GetComponent<PageView>();
+           // PageView view = view_items.transform.GetChild(0).GetComponent<PageView>();
             for (int i = 0; i < Colum; i++)
             {
                 for (int j = Row -2; j >= 0; j--)
@@ -94,7 +124,7 @@ namespace Master
                             it.Moveitem.Move(i,j+1,fillTime);
                             Destroy(items[i, j + 1].gameObject);
                             items[i, j + 1] = it;
-                            CreateNewItem(i,j,item.ItemType.EMPTY, view.content.GetChild(0));
+                            CreateNewItem(i,j,item.ItemType.EMPTY, parent);
                             FilledNotFinshed = true;
                         }
                     }
@@ -109,7 +139,7 @@ namespace Master
                 if (it.Type == item.ItemType.EMPTY)
                 {
                     Destroy(items[x, 0].gameObject);
-                    GameObject newitem = GameObject.Instantiate(itemprefabDict[item.ItemType.NORMAL], view.content.GetChild(0));
+                    GameObject newitem = GameObject.Instantiate(itemprefabDict[item.ItemType.NORMAL], parent);
                     items[x, 0] = newitem.GetComponent<item>();
                     items[x, 0].init(x, -1, item.ItemType.NORMAL);
                     items[x, 0].Moveitem.Move(x, 0,fillTime);

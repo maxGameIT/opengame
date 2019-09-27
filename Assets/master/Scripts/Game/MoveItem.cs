@@ -33,7 +33,7 @@ namespace Master
             m_item.Y = newY;
             RectTransform rectTransform = GetComponent<RectTransform>();
             Vector2 startpos = rectTransform.anchoredPosition;
-            Vector2 endpos = new Vector2(newX * 106 + 50,  550 - newY * 100);
+            Vector2 endpos = new Vector2(newX * 106 + 50,  450 - newY * 80);
             for (float t = 0; t < time; t+= Time.deltaTime)
             {
                 rectTransform.anchoredPosition = Vector2.Lerp(startpos,endpos,t/time);
